@@ -11,8 +11,7 @@ import Invoices from "./scenes/invoices";
 import Form from "./scenes/form";
 import Calendar from "./scenes/calendar";
 import FAQ from "./scenes/faq";
-import Barchart from "./components/Barchart";
-import { Bar } from "@nivo/bar";
+import Bar from "./scenes/bar";
 
 const router = createBrowserRouter([
   {
@@ -50,7 +49,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/bar",
-        element: <Barchart />,
+        element: <Bar />,
       },
     ],
   },
