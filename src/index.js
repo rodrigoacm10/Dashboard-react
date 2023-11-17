@@ -12,6 +12,9 @@ import Form from "./scenes/form";
 import Calendar from "./scenes/calendar";
 import FAQ from "./scenes/faq";
 import Bar from "./scenes/bar";
+import Pie from "./scenes/pie";
+import Line from "./scenes/line";
+import Geography from "./scenes/geography";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +53,18 @@ const router = createBrowserRouter([
       {
         path: "/bar",
         element: <Bar />,
+      },
+      {
+        path: "/pie",
+        element: <Pie />,
+      },
+      {
+        path: "/line",
+        element: <Line />,
+      },
+      {
+        path: "/geography",
+        element: <Geography />,
       },
     ],
   },
